@@ -1,0 +1,17 @@
+v2.0 
+--------
+*First stable release on new codebase
+*Added /share directory and subdirs, needed for compiling on unix
+*Added /docs directory with build instructions and tools
+*Added /contrib folder with gitian build scripts for unix and non-unix platforms
+*Global replace in new folders to make sure naming is accurate (Gitian builds will require that github have an updated "BitCurrencyPro-deps-0.0.1.zip" with the dependencies.) 
+*Added version string (2.0) to:
+ src/version.cpp
+*Fixes to src/qt/bitcoin.qrc so it points to the correct icons (caps sensitive).
+*Naming fix in src/util.cpp
+*Added readme content with links to unix, qt build instructions
+*Added INSTALL document 
+*Updates to doc/assets-attribution.txt
+*Updates to doc/build-* for naming consistency
+
+
